@@ -1,0 +1,17 @@
+CREATE TABLE postu(
+  sno int,
+  name varchar(50),
+  designation text,
+  branch varchar(50)
+  );
+  INSERT INTO postu
+  (sno,name,designation,branch)
+  VALUES ('1','MARTIN','MANAGER','CHENNAI');
+  INSERT INTO postu
+  VALUES ('2','SOPNA','SUPERVISOR','MADURAI');
+  INSERT INTO postu
+  VALUES ('3','HUNTER','ASSISTANCE','TRICHY');
+  ALTER TABLE postu
+  ADD salary int;
+  
+  
